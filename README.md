@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌘 `@ricardo-jrm/supernova`
+# 🌘 `@ricardo-jrm/reaper`
 
 <b>React utility</b>
 
@@ -21,57 +21,6 @@
 
 <br />
 
-### <b>Bootstrap</b>
-
-```ts
-npx @ricardo-jrm/reaper
-```
-
-Boilerplate `React` project bootstrapped with all necessary configs and workflows
-
-<br />
-
-### <b>Workflows</b>
-
-Quality Assurance
-
-- Will lint code and run tests
-- Runs on `pull_request` sync and `push` to `main`
-
-Release
-
-- Will create a GitHub release with auto generated versioning and changelog
-- Will publish the package to the public NPM registry
-- Runs on `push` to `main` and after the QA job
-
-Publish to GitHub (Public)
-
-- Will publish the package to the public GitHub registry
-- Runs on `workflow_dispatch`
-
-<br />
-
-### <b>Dev Dependencies</b>
-
-- `React`
-- `Typescript`
-- `Prettier`
-- `ESLint`
-- `Commit Lint`
-- `Lint Staged`
-- `Husky`
-- `Jest`
-- `React Testing Library`
-- `Storybook`
-- `Webpack`
-- `Semantic Release`
-
-<br />
-
----
-
-<br />
-
 ### <b>Install</b>
 
 ```ts
@@ -85,8 +34,28 @@ yarn add @ricardo-jrm/reaper
 ### <b>Usage</b>
 
 ```ts
-import { ExampleComponent, useExampleHook } from '@ricardo-jrm/reaper';
+import {
+  useDateFormat,
+  useDateRelative,
+  useHexRgb,
+  useRgbHex,
+  useLocalState,
+  useNumberFormat,
+  useStringCapitalize,
+  useStringTruncate,
+} from '@ricardo-jrm/reaper';
 ```
+
+<br />
+
+### <b>Packages</b>
+
+- [@ricardo-jrm/use-color-converter](https://github.com/ricardo-jrm/use-color-converter)
+- [@ricardo-jrm/use-date-format](https://github.com/ricardo-jrm/use-date-format)
+- [@ricardo-jrm/use-local-state](https://github.com/ricardo-jrm/use-local-state)
+- [@ricardo-jrm/use-number-format](https://github.com/ricardo-jrm/use-number-format)
+- [@ricardo-jrm/use-string-capitalize](https://github.com/ricardo-jrm/use-string-capitalize)
+- [@ricardo-jrm/use-string-truncate](https://github.com/ricardo-jrm/use-string-truncate)
 
 <br />
 

@@ -91,6 +91,12 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
+    "@ricardo-jrm/use-color-converter": "^1.0.1",
+    "@ricardo-jrm/use-date-format": "^1.0.1",
+    "@ricardo-jrm/use-local-state": "^1.0.1",
+    "@ricardo-jrm/use-number-format": "^1.0.1",
+    "@ricardo-jrm/use-string-capitalize": "^2.0.2",
+    "@ricardo-jrm/use-string-truncate": "^2.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
