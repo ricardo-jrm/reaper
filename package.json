@@ -1,21 +1,21 @@
 {
-  "name": "@ricardo-jrm/reaper",
+  "name": "@ricardojrmcom/reaper",
   "description": "React utility",
-  "version": "0.0.1-development",
+  "version": "0.0.3-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/reaper.git"
+    "url": "https://github.com/ricardojrmcom/reaper.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/reaper#readme",
+  "homepage": "https://github.com/ricardojrmcom/reaper#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/reaper/issues"
+    "url": "https://github.com/ricardojrmcom/reaper/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -91,12 +91,12 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@ricardo-jrm/use-color-converter": "^1.0.1",
-    "@ricardo-jrm/use-date-format": "^1.0.1",
-    "@ricardo-jrm/use-local-state": "^1.0.1",
-    "@ricardo-jrm/use-number-format": "^1.0.1",
-    "@ricardo-jrm/use-string-capitalize": "^2.0.2",
-    "@ricardo-jrm/use-string-truncate": "^2.0.4",
+    "@ricardojrmcom/use-color-converter": "^2.0.0",
+    "@ricardojrmcom/use-date-format": "^2.0.0",
+    "@ricardojrmcom/use-local-state": "^2.0.0",
+    "@ricardojrmcom/use-number-format": "^2.0.0",
+    "@ricardojrmcom/use-string-capitalize": "^3.0.0",
+    "@ricardojrmcom/use-string-truncate": "^3.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

@@ -1,11 +1,11 @@
-export { useHexRgb, useRgbHex } from '@ricardo-jrm/use-color-converter';
+export { useHexRgb, useRgbHex } from '@ricardojrmcom/use-color-converter';
 
-export { useDateFormat, useDateRelative } from '@ricardo-jrm/use-date-format';
+export { useDateFormat, useDateRelative } from '@ricardojrmcom/use-date-format';
 
-export { useLocalState } from '@ricardo-jrm/use-local-state';
+export { useLocalState } from '@ricardojrmcom/use-local-state';
 
-export { useNumberFormat } from '@ricardo-jrm/use-number-format';
+export { useNumberFormat } from '@ricardojrmcom/use-number-format';
 
-export { useStringCapitalize } from '@ricardo-jrm/use-string-capitalize';
+export { useStringCapitalize } from '@ricardojrmcom/use-string-capitalize';
 
-export { useStringTruncate } from '@ricardo-jrm/use-string-truncate';
+export { useStringTruncate } from '@ricardojrmcom/use-string-truncate';
